@@ -16,7 +16,7 @@ import JdLink from "./JdLink"
 function JobCard({ data }) {
   console.log(data.jobRole);
   return (
-    <div className="w-full h-fit m-auto border drop-shadow-lg shadow-md py-8 px-6 mb-10 rounded-[12px] hover:border-[#959595]">
+    <div className="w-full h-fit m-auto border drop-shadow-lg shadow-md px-4 py-5 mb-10 rounded-[12px] hover:border-[#959595]">
       <div className="flex flex-col gap-4">
         <DayMenu />
         <TitleSave title={data.jobRole} />

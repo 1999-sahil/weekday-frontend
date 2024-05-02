@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Modal from './Modal'; // Import the Modal component
 
 function JobDescription({ desc, title, location, link }) {
@@ -22,7 +22,7 @@ function JobDescription({ desc, title, location, link }) {
         </span>
         <div className='flex flex-col gap-2'>
             <p className="flex gap-2 items-center font-dmsans text-sm text-wrap whitespace-nowrap">
-                {desc.substr(0, 300) + "   ......."}
+                {desc.substr(0, 300) + "......."}
             </p>
             <button className="text-blue-600 hover:underline text-sm" onClick={handleViewMoreClick}>
                 View More
@@ -34,10 +34,10 @@ function JobDescription({ desc, title, location, link }) {
             title={title}
             location={location}
             link={link}
-        >
+          >
             <p className='font-dmsans text-base'>
-                <h2 className='mb-2 font-semibold text-lg'>Overview</h2>
-                {modalContent}
+              <h2 className='mb-2 font-semibold text-lg'>Overview</h2>
+              {modalContent}
             </p>
           </Modal>
         )}

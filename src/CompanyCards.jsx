@@ -1,7 +1,7 @@
 function CompanyCards() {
   return (
-    <div className=" gap-2 mb-5 flex">
-      <div className="border-2 border-[#b58770] w-[120px] px-6 py-4 rounded-lg flex flex-col items-center justify-center">
+    <div className="flex flex-wrap items-center justify-center gap-4 py-6">
+      <div className="border-2 border-[#b58770] w-[140px] px-6 py-6 rounded-lg flex flex-col items-center justify-center">
         <svg
           width="40px"
           height="40px"
@@ -31,7 +31,7 @@ function CompanyCards() {
           2k Jobs
         </h2>
       </div>
-      <div className="border-2 border-[#b58770] w-[120px] px-6 py-4 rounded-lg flex flex-col items-center justify-center">
+      <div className="border-2 border-[#b58770] w-[140px] px-6 py-6 rounded-lg flex flex-col items-center justify-center">
         <svg
           width="40px"
           height="40px"
@@ -66,7 +66,7 @@ function CompanyCards() {
           1.4k Jobs
         </h2>
       </div>
-      <div className="border-2 border-[#b58770] w-[120px] px-6 py-4 rounded-lg flex flex-col items-center justify-center">
+      <div className="border-2 border-[#b58770] w-[140px] px-6 py-6 rounded-lg flex flex-col items-center justify-center">
         <svg
           width="40px"
           height="40px"
@@ -93,7 +93,7 @@ function CompanyCards() {
           756 Jobs
         </h2>
       </div>
-      <div className="border-2 border-[#b58770] w-[120px] px-6 py-4 rounded-lg flex flex-col items-center justify-center">
+      <div className="border-2 border-[#b58770] w-[140px] px-6 py-6 rounded-lg flex flex-col items-center justify-center">
         <svg
           width="40px"
           height="40px"
@@ -111,7 +111,7 @@ function CompanyCards() {
           1.2k Jobs
         </h2>
       </div>
-      <div className="border-2 border-[#b58770] w-[120px] px-6 py-4 rounded-lg flex flex-col items-center justify-center">
+      <div className="border-2 border-[#b58770] w-[140px] px-6 py-6 rounded-lg flex flex-col items-center justify-center">
         <svg
           fill="#000000"
           width="40px"
@@ -126,7 +126,7 @@ function CompanyCards() {
           134 Jobs
         </h2>
       </div>
-      <div className="border-2 border-[#b58770] w-[120px] px-6 py-4 rounded-lg flex flex-col items-center justify-center">
+      <div className="border-2 border-[#b58770] w-[140px] px-6 py-6 rounded-lg flex flex-col items-center justify-center">
         <svg
           width="40px"
           height="40px"
